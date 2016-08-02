@@ -262,7 +262,8 @@ Full-Width Styles
 
 .outer {
   width: 100%;
-  display:inline-block
+  display:inline-block;
+  
 }
 
 .inner {
@@ -310,7 +311,7 @@ Full-Width Styles
   top:0;
   right: 10px;
   z-index: 10;
-  padding: 10px 50px 10px 10px;
+  padding: 10px 20px 10px 10px;
   color: #fff;
   background: url('http://faculty.knou.ac.kr/~geunghee/images/blacktocat.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
@@ -326,10 +327,12 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
+  
 }
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+  text-align:center;
 }
 
 #project_title {
